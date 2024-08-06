@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afcc1e67d663249c1b2c2d3ad2579c83, type: 3}
+  m_Name: daria_document
+  m_EditorClassIdentifier: 
+  statementText: 'A document from professor Richter''s archive: "Operation Successful:
+    The latest implantation was successfully completed on Monday, November 30th.
+    The subject is a 13 year old Caucasian female, 167cm, 53kg, blood type: ''O plus''.
+    She has been responding as expected and has scored promising results on her cognitive
+    tests. No signs of past memory awareness and no unexpected post-operation side-effects.
+    Currently awaiting for the review by The Mentor in order to assign her to her
+    class and dormitory."'

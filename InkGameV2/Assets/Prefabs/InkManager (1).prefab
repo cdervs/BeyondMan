@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4426669253159741302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6195617434924998996}
+  - component: {fileID: 8992668772102744354}
+  m_Layer: 0
+  m_Name: InkManager (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6195617434924998996
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4426669253159741302}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8992668772102744354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4426669253159741302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 965c2e474966c48d8b0c7357ff2353c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundcontroller: {fileID: 0}
+  savedtext2: 
+  _savedfont: 
+  _savedfont2: 
+  loadtrack: 
+  wasplaying: 0
+  choicesdisplayed: 0
+  tags: []
+  tags2: []
+  delayBeforeStart: 0.2
+  timeBtwChars: 0.02
+  leadingChar: 
+  leadingCharBeforeDelay: 0
+  _inkJsonAsset: {fileID: 4900000, guid: 265c791da5352458d88d3b2941424590, type: 3}
+  typingdone: 0
+  _savetag: 
+  _textField: {fileID: 0}
+  _textField2: {fileID: 0}
+  menuPrefab: {fileID: 5956525219497479253, guid: 15bfa633403aa4100a832b93c992344a, type: 3}
+  noahPrefab: {fileID: 4226683071618952091, guid: 5f533d61d877342e8bad1cb2f648e6d5, type: 3}
+  narratorPrefab: {fileID: 4950292905140816173, guid: 08732cc52d8e0416c8d542cfa1f33551, type: 3}
+  convPrefab: {fileID: 8840258643911899118, guid: d79dd0d8443204ee3a1dd8611f3011c8, type: 3}
+  commercialPrefab: {fileID: 6800177438048392027, guid: efeab6de0ffb24a2496c7974b6598b8e, type: 3}
+  surprisePrefab: {fileID: 4895887635054767610, guid: bf886bf0e65564a0c88f9fba39b8a736, type: 3}
+  _choiceButtonContainer: {fileID: 0}
+  _choiceButtonPrefab: {fileID: 8074186258751640921, guid: 4f1fbea7ac1fd41a595bf03a46bb4d1b, type: 3}
+  _nextButtonPrefab: {fileID: 8143309178799480024, guid: b34951a87f1c7482ba621f3ade7a8081, type: 3}

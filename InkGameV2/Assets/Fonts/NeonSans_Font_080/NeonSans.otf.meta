@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: df8c2c1268f6d441d86aa39c9452b567
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Neon Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ce0428effb31b4285a2a4e17e5400d63, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
