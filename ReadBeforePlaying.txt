@@ -2,7 +2,7 @@
 
 The majority of the gameplay is choice-based, meaning that the player is frequently asked to make a decision, based on the choices that are offered to him. Each decision can influence the story and, in some cases, certain decision may shape the outcome (there are multiple endings to the story).
 
-Here is the link to the game : https://www.dropbox.com/scl/fo/b35apne0zin30qof2zudx/ALDf_QsdebR1fdRVOQbjTsI?rlkey=bd7fdz0g971iyj2tn3w1u8lgz&st=1y04qga3&dl=0
+Here is the link to the game : https://www.dropbox.com/scl/fo/b35apne0zin30qof2zudx/ALDf_QsdebR1fdRVOQbjTsI?rlkey=hf5zwouw8y3fralp9vgqlwml4&st=l5aqnqvd&dl=0
 
 If you are using MacOS, follow the instructions presented in the following video: https://youtu.be/dSha-umuI6s
 
