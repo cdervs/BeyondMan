@@ -1,0 +1,32 @@
+‘Beyond Man’ is an interactive fiction game. The player controls Noah, a police detective in a future timeline, who is called to investigate the mysterious death of a wealthy woman.
+
+The majority of the gameplay is choice-based, meaning that the player is frequently asked to make a decision, based on the choices that are offered to him. Each decision can influence the story and, in some cases, certain decision may shape the outcome (there are multiple endings to the story).
+
+Here is the link to the game : https://www.dropbox.com/scl/fo/b35apne0zin30qof2zudx/ALDf_QsdebR1fdRVOQbjTsI?rlkey=bd7fdz0g971iyj2tn3w1u8lgz&st=1y04qga3&dl=0
+
+If you are using MacOS, follow the instructions presented in the following video: https://youtu.be/dSha-umuI6s
+
+
+Controls:
+
+- Press ‘A’ for the Attributes Panel :
+
+Attributes are the personality traits and the skills of the character. Noah’s personality is passively shaped by the decisions he makes. Meanwhile, skills can be actively tweaked by redeeming XP points. You collect those, as you play (usually, these are rewards for sensible choices).  Upgrading your traits and skills will offer more specialized choices (e.g. if Noah is handy, he may be able to pick a door lock) or a sharper view of the world (e.g. if Noah is highly analytical, he may be able to connect certain dots regarding the case).
+
+- Press ’S’ for the Statements & Evidence Panel :
+
+There, you can revisit the statements you have taken from people and the actual evidence, regarding the incident. It’s always worth reviewing the information you have.
+
+- Press ‘I’ for the Inventory Panel:
+
+The Inventory shows all the objects that Noah has collected. All of these can be used at a certain time. Click on them to see their description.
+
+- Press ‘P’ for the Profiles Panel: 
+
+This panel showcases the profiles of the people you’ve talked to, regarding the case. It may be wise to keep track of who you’ve met. After all, a picture is worth a thousand words…
+
+- Press ‘M’ for the Menu.
+
+Keep in mind, Noah is a mere mortal, so take care of him !
+Good luck !
+
