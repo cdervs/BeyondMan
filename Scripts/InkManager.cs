@@ -16,6 +16,9 @@ public class InkManager : MonoBehaviour
 {
 
   public GameStateManager autosave;
+
+  private PauseManager pauseMng;
+  
   
   [SerializeField]
   public SoundController _soundcontroller;
@@ -594,7 +597,7 @@ public class InkManager : MonoBehaviour
     }
 
 
-    if(saved_background!="" && background_tag!=saved_background)
+    if(saved_background!="" && background_tag!=saved_background && pauseMng.autosaveState)
     {//saves the game each time the background changes.
       autosave.SaveGame();
       saveNotification.gameObject.SetActive(true);
@@ -1104,6 +1107,7 @@ void WaittoDisappear()
   
   void Start()
   {
+    pauseMng = GameObject.Find("ManagePause").GetComponent<PauseManager>();
     //Sets certain elements accordingly for the start of the story.
     leave_input.onClick.AddListener(() => ReturnFromInput());
     input_field.gameObject.SetActive(false);

@@ -14,6 +14,9 @@ public class GameStateManager : MonoBehaviour
 
   private Button fileButton;
 
+  [SerializeField]
+  public GameObject helpPanel, creditsPanel;
+
   TMP_Text fileButtonText;
 
   private VerticalLayoutGroup _loadButtonContainer;
@@ -40,6 +43,28 @@ public class GameStateManager : MonoBehaviour
   {
     _inkManager = FindObjectOfType<InkManager>();
     //_characterManager = FindObjectOfType<CharacterManager>();
+  }
+
+  public void DisplayHelpPanel()
+  {
+    if(helpPanel.activeInHierarchy)
+    {
+      helpPanel.SetActive(false);
+    } else
+    {
+      helpPanel.SetActive(true);
+    }
+  }
+
+  public void DisplayCreditsPanel()
+  {
+    if(creditsPanel.activeInHierarchy)
+    {
+      creditsPanel.SetActive(false);
+    } else
+    {
+      creditsPanel.SetActive(true);
+    }
   }
 
   public void StartGame()

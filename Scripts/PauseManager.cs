@@ -13,8 +13,11 @@ public class PauseManager : MonoBehaviour
     public Image img;
 
     bool soundState = true;
+    public bool autosaveState = true;
 
     public Button ControlSound;
+
+    public Button ControlSave;
 
     bool Activate = false;
 
@@ -80,7 +83,23 @@ public class PauseManager : MonoBehaviour
             soundbuttonText.text = "Sound: Off";
         }
 
-    } 
+    }
+
+    public void AutosaveSwitch()
+    {
+        var autosaveText = ControlSave.GetComponentInChildren<TMP_Text>();
+
+        autosaveState = !autosaveState;
+
+        if(autosaveState)
+        {
+            autosaveText.text = "Autosave: On";
+        }
+        else
+        {
+            autosaveText.text = "Autosave: Off";
+        }
+    }
 
      void DisplayPauseMenu()
     {
